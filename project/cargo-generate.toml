@@ -1,0 +1,5 @@
+[placeholders]
+workspace = { type="bool", prompt="Workspace?", default=false }
+
+[hooks]
+post = ["post-script.rhai"]
