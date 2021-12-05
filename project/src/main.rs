@@ -12,7 +12,7 @@ fn main() {
 
 #[cfg(test)]
 mod tests {
-    use test_env_log::test;
+    use test_log::test;
     use mockall::predicate::*;
 
     #[cfg_attr(test, mockall::automock)]
